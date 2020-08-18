@@ -1,3 +1,12 @@
 html{
     background-color:#D3D3D3;
 }
+.vertical{
+    width: 20%;
+    
+
+}
+
+.container{
+    float: right;
+}
