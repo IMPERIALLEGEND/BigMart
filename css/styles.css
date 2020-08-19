@@ -1,12 +1,25 @@
-html{
-    background-color:#D3D3D3;
-}
-.vertical{
-    width: 20%;
+.carousel-inner img {
+    
+    width: 100%;
+    height: 100%;
+    
+  }
+#demo{
+    width: 50%;
+    float: left;
+    width: 54.5%;
     
 
+   
+
+    
+
+
 }
 
-.container{
-    float: right;
+.vertical{
+    width: 20%;
+    float: left;
+    line-height: 45px;
+
 }
