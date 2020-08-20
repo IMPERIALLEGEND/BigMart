@@ -199,7 +199,7 @@ html,body{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     left: 0;
     background-color: #111;
@@ -218,7 +218,7 @@ html,body{
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #ffc038;
   }
   
   .sidenav .closebtn {
@@ -227,11 +227,15 @@ html,body{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    color: #D4AF37;
   }
   
   #main {
     transition: margin-left .5s;
-    padding: 16px;
+    
+    color: #D4AF37;	
+    padding-right: 16px;
+    
   }
   
   @media screen and (max-height: 450px) {
