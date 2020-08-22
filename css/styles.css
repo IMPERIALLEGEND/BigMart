@@ -254,3 +254,16 @@ html,body{
   .dropright{
       z-index: 5;
   }
+
+
+  #nav-content{
+      transition: all 0.3s linear;
+  }
+
+
+
+  #nav-content:hover{
+        transform: scale(1.1);
+        color: #ffc038;
+        transition: all 0.3s linear;
+  }
