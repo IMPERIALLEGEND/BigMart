@@ -163,6 +163,7 @@ html,body{
     background: #343a40;
     color: #686868;
     height: 2rem;
+    z-index: -1;
     
 }
 
