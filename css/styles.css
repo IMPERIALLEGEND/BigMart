@@ -214,11 +214,14 @@ html,body{
     font-size: 1.5rem;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.3s linear;
   }
   
   .sidenav a:hover {
     color: #ffc038;
+    transform: scale(1.12);
+    margin-left: 20px;
+    transition: 0.3s linear;
   }
   
   .sidenav .closebtn {
