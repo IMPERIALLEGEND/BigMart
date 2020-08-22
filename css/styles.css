@@ -155,7 +155,7 @@ html,body{
     
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     padding-top: 10px;
     left: 0;
     bottom: 0%;
@@ -193,6 +193,11 @@ html,body{
     line-height: 1.3rem;
 }
 
+.slide-btn{
+    border: 1px solid #ffc038;
+    padding: .1rem .5rem;
+    border-radius: 5px;
+}
 
 
 .sidenav {
