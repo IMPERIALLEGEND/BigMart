@@ -3,40 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Big Mart</title>
+    <title>BUY RIGHT | ONLINE STORE</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- favicon -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicon_io/site.webmanifest">
+
+    <!-- bootstrap cdn added -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <!-- font awesome -->
+
     <script src="https://kit.fontawesome.com/01f85b27a0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Fonts added -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    
+    <!-- custom css and js -->
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/index.js"></script>
   </head>
 <body>
-  <div>
+
+
+  
+
+
+
+  
+    
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Big Mart</a>
+        
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Branded Food</a>
+        <a href="#">HouseHolds</a>
+
+
+
+
+        
+        <div class="dropright mega-dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Veggies & Fruits<span class="caret"></span></a>				
+          <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
+            <div class="w3ls_vegetables">
+              <ul>	
+                <li><a href="#">Vegetables</a></li>
+                <li><a href="#">Fruits</a></li>
+              </ul>
+            </div>                  
+          </div>				
+        </div>
+
+
+
+
+
+
+
+        <a href="#">Kitchen</a>
+        <a href="#">Short Codes</a>
+        
+
+        <div class="dropright mega-dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Beverages<span class="caret"></span></a>				
+          <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
+            <div class="w3ls_vegetables">
+              <ul>	
+                <li><a href="#">Soft Drinks</a></li>
+                <li><a href="#">Juices</a></li>
+              </ul>
+            </div>                  
+          </div>				
+        </div>
+
+        <a href="#">Pet Food</a>
+        
+        <div class="dropright mega-dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Frozen Foods<span class="caret"></span></a>				
+          <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
+            <div class="w3ls_vegetables">
+              <ul>	
+                <li><a href="#">Frozen Snacks</a></li>
+                <li><a href="#">Frozen NonVeg</a></li>
+              </ul>
+            </div>                  
+          </div>				
+        </div>
+
+        
+        <a href="#">Bread & Bakery</a>
+      </div>
+      
+      <div id="main">
+       
+        <span style="font-size:30px;cursor:pointer" class="slide-btn" onclick="openNav()">&#9776; </span>
+      </div>
+
+          <a class="navbar-brand" href="#"><img src="resources/dark-logo-2.png" alt="Brand-logo"></a>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#" id="nav-content">Events</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="#" id="nav-content">About Us</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link ">Contact</a>
+              <a class="nav-link " href="#" id="nav-content">Best Deals</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#" id="nav-content">Services</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-secondary " type="submit">Search</button>
+            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary " type="submit">&nbsp;Search</button>
           </form>
-        </div>
-      </nav>
-    </div>
+        
+    </nav>
+    
+
+    
 
 
     
