@@ -21,6 +21,7 @@ html,body{
     position: relative;
     background-color: #fff;
     box-shadow: 0 1rem 2rem #000;
+    padding-bottom: 5rem;
 }
 
 
@@ -273,16 +274,16 @@ html,body{
 .First-Card{
     padding-top: 30px;
     position: relative;
+    margin-bottom: 6rem;
     
-    margin-bottom: 350px;
 }
 .Second-Card{
     padding-top: 30px;
     position: relative;
+
 }
 .card-deck{
-    width: 1140px;
-    height: 390px;
+    width: auto;
 }
 .card-container{
     padding-top: 30px;
