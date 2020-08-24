@@ -269,3 +269,38 @@ html,body{
         color: #ffc038;
         transition: all 0.3s linear;
   }
+
+.First-Card{
+    padding-top: 30px;
+    position: relative;
+    
+    margin-bottom: 350px;
+}
+.Second-Card{
+    padding-top: 30px;
+    position: relative;
+}
+.card-deck{
+    width: 1140px;
+    height: 390px;
+}
+.card-container{
+    padding-top: 30px;
+}
+
+.card{
+    padding: 20px;
+   
+}
+
+
+
+
+/* Banner */
+
+
+.Banner{
+    padding-top: 50px;
+}
+
+/* Banner End */

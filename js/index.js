@@ -12,3 +12,10 @@ function openNav() {
     document.getElementById("main").style.visibility = "visible";
     document.body.style.backgroundColor = "white";
   }
+
+
+
+
+
+
+  
