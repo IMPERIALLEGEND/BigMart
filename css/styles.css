@@ -308,6 +308,7 @@ html,body{
 
 }
 
+<<<<<<< HEAD
 .banner-img{
     margin: 1rem 1rem;
     padding-bottom: 2rem; 
@@ -317,3 +318,36 @@ html,body{
 
 
 /* Banner End */
+=======
+/* Banner End */
+
+
+
+/* Cart-Button */
+input.button {
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    text-transform: capitalize;
+    padding: .5em 2.5em .5em 1em;
+    border: 1px solid #84c639;
+    margin: .35em 0 0;
+    background: url(../images/cart.png) no-repeat 116px 9px;
+    margin-right: 40px;
+}
+
+
+.snipcart-details input.button {
+    font-size: 14px;
+    color: #fff;
+    background: #FA1818;
+    text-decoration: none;
+    position: relative;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding: .5em 0;
+    outline: none;
+}
+>>>>>>> master
