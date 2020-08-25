@@ -302,21 +302,8 @@ html,body{
 
 .Banner{
     padding-top: 50px;
-    align-items: center;
-    justify-content: center; 
-
-
 }
 
-.banner-img{
-    margin: 1rem 1rem;
-    padding-bottom: 2rem; 
-    height: auto;
-    width :100%;
-}
-
-
-/* Banner End */
 /* Banner End */
 
 
