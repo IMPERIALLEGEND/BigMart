@@ -21,7 +21,6 @@ html,body{
     position: relative;
     background-color: #fff;
     box-shadow: 0 1rem 2rem #000;
-    padding-bottom: 5rem;
 }
 
 
@@ -398,4 +397,15 @@ input.button {
 .show {
     opacity: 0.7;
     z-index: 3;
+}
+
+
+
+#back-to-top{
+    position: fixed;
+    bottom: 15.8rem;
+    right: 3rem;
+    display: none;
+    
+
 }
