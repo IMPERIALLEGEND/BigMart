@@ -21,7 +21,6 @@ html,body{
     position: relative;
     background-color: #fff;
     box-shadow: 0 1rem 2rem #000;
-    padding-bottom: 5rem;
 }
 
 
@@ -400,4 +399,13 @@ input.button {
     z-index: 3;
 }
 
-/* News-Letter */
+
+
+#back-to-top{
+    position: fixed;
+    bottom: 15.8rem;
+    right: 3rem;
+    display: none;
+    
+
+}
