@@ -21,7 +21,6 @@ html,body{
     position: relative;
     background-color: #fff;
     box-shadow: 0 1rem 2rem #000;
-    padding-bottom: 5rem;
 }
 
 
@@ -339,12 +338,6 @@ input.button {
 
 }
 
-
-/* Cart-Button-Hover */
-
-
-/* drop-down-toggle-Signup  */
-
 .fa {
     display: inline-block;
     font-family: FontAwesome;
@@ -394,14 +387,17 @@ input.button {
     left: 0%;
 }
 
-/*Dropdown toggle #Login
-.show {
-    opacity: 0.7;
-    z-index: 3;
-}
-*/
-
 .dropLogin a:hover{
     background-color: ;
     text-decoration-color: black;
+=======
+
+
+
+#back-to-top{
+    position: fixed;
+    bottom: 15.8rem;
+    right: 3rem;
+    display: none;
+    
 }
