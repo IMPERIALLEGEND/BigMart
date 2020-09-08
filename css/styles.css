@@ -394,8 +394,14 @@ input.button {
     left: 0%;
 }
 
-
+/*Dropdown toggle #Login
 .show {
     opacity: 0.7;
     z-index: 3;
+}
+*/
+
+.dropLogin a:hover{
+    background-color: ;
+    text-decoration-color: black;
 }
