@@ -401,3 +401,68 @@ input.button {
     display: none;
     
 }
+
+/* 
+Banner */
+.wthree_banner_bottom_left_grid_pos {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+.wthree_banner_bottom_left_grid_pos h4 span {
+    display: block;
+    line-height: 1;
+    width: 80px;
+    height: 80px;
+    background: #FA1818;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 1.2em;
+    margin: 0.5em auto 0;
+}
+.wthree_banner_bottom_left_grid_pos h4 {
+    font-size: 1.5em;
+    color: #000000;
+}
+.wthree_banner_btm_pos {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    padding: 0 2em;
+}
+.wthree_banner_btm_pos h3 {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: #212121;
+    font-weight: 300;
+}
+.wthree_banner_btm_pos h3 span {
+    color: #84C639;
+    font-weight: 600;
+    display: block;
+    line-height: 1.8em;
+    padding-left: 7em;
+}
+.wthree_banner_btm_pos h3 i {
+    color: #FA1818;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.wthree_banner_btm_pos1 {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+.wthree_banner_btm_pos1 h3 {
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 2em;
+}
+.wthree_banner_btm_pos1 h3 span {
+    display: block;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #FA1818;
+}
