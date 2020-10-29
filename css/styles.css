@@ -292,8 +292,19 @@ html,body{
     padding: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
-   
+   transition: all 0.3s;
+   border-radius: 5%;
 }
+
+.card:hover{
+    border: #ffc038 solid 3px;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s;
+    background-color: #343a40;
+    color:#ffffff;
+}
+
+
 
 
 

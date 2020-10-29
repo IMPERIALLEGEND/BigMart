@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="favicon/favicon1.ico" type="image/x-icon"> -->
+    <link rel="icon" href="favicon/favicon1.ico" type="image/x-icon">
+
+    <title>
+
+        BUY RIGHT | ONLINE STORE
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- favicon -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicon_io/site.webmanifest">
+
+    <!-- bootstrap cdn added -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/01f85b27a0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Fonts added -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+
+    <!-- custom css and js -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Branded Food</a>
+            <a href="#">HouseHolds</a>
+            <a href="#">Veggies & Fruits</a>
+            <a href="#">Kitchen</a>
+            <a href="#">Short Codes</a>
+            <a href="#">Beverages</a>
+            <a href="#">Pet Food</a>
+            <a href="#">Frozen Food</a>
+            <a href="#">Bread & Bakery</a>
+        </div>
+
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer" class="slide-btn" onclick="openNav()">&#9776; </span>
+        </div>
+
+        <a class="navbar-brand" href="#"><img src="resources/dark-logo-2.png" alt="Brand-logo"></a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" id="nav-content">Events</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" id="nav-content">About Us</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="#" id="nav-content">Best Deals</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="#" id="nav-content">Services</a>
+            </li>
+
+
+        </ul>
+
+        <form action="#" method="post" class="last">
+            <fieldset>
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="display" value="1">
+                <input type="submit" name="submit" value="View your cart" class="button ">
+            </fieldset>
+        </form>
+
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="login.html">Login</a>
+                <a class="dropdown-item" href="#">Sign Up</a>
+                <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+            </div>
+        </div>
+
+
+        <form class="form-inline my-2 my-lg-0">
+
+            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary " type="submit" style="margin-bottom: 8px;">&nbsp;Search</button>
+        </form>
+
+    </nav>
+
+
+
+
+
+    <div class="page-content container-fluid">
+
+        <div class="top-brands">
+            <div class="First-Card">
+                <h3 style="text-align: center;" class="top-offers">Beverages</h3>
+                <div class="container card-container">
+
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <!-- <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div> -->
+                            <img src="https://images.unsplash.com/photo-1571114865995-9545aedcd241?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pepsi</h5>
+                                <p class="card-text"> &#8377 300 </p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Pepsi">
+                                            <input type="hidden" name="amount" value="300">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+
+                                            <input type="submit" name="submit" value="Add to cart" class="button btn-11"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted">Pack of 6</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <!-- <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div> -->
+
+                            <img src="img/2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">RC Cola</h5>
+                                <p class="card-text"> &#8377 73</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="RC Cola">
+                                            <input type="hidden" name="amount" value="73">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted">1.25L</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <img src="images/offer.png" alt=" " class="img-responsive">
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1597988468338-b8d0dafc2f01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=524&q=80"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Orange Juice</h5>
+                                <p class="card-text">&#8377 99 <del>&nbsp;125</del></p>
+                                <div class="snipcart-details top_brand_home_details ">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Orange Juice">
+                                            <input type="hidden" name="amount" value="99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted">1L</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="data:image/jpeg;base64,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"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Amul Milk</h5>
+                                <p class="card-text">&#8377 24</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                                            <input type="hidden" name="amount" value="7.99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted">500 ml</small></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="Second-card" style="margin-bottom: 96px;">
+                <div class="container card-container">
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://5.imimg.com/data5/ZJ/VP/NS/SELLER-80635375/amul-camel-milk-500x500.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Amul Camel Milk</h5>
+                                <p class="card-text">&#8377 25</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                                            <input type="hidden" name="amount" value="7.99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted">200 ml</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://www.bestsabjiwala.com/wp-content/uploads/2020/01/katraj1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Katraj milk</h5>
+                                <p class="card-text">&#8377 22</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Katraj milk">
+                                            <input type="hidden" name="amount" value="22">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted">500 ml</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <img src="images/offer.png" alt=" " class="img-responsive">
+                            </div>
+                            <img src="https://5.imimg.com/data5/II/GC/QZ/SELLER-29161029/mango-frooti-bottle-500x500.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Frooti</h5>
+                                <p class="card-text">&#8377 56 <del>&nbsp; 75</del></p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                                            <input type="hidden" name="amount" value="7.99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted">2 L</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51nsRrB3tgL._SX425_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Maaza</h5>
+                                <p class="card-text">&#8377 59</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                                            <input type="hidden" name="amount" value="7.99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="Third-card">
+                <div class="container card-container">
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/41u6wwxXT9L.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Amul Cool</h5>
+                                <p class="card-text">&#8377 18</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                                            <input type="hidden" name="amount" value="7.99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"> </small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://www.simplisubscribe.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/a/k/ak_amurtha_milk.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">A2 Organic Milk</h5>
+                                <p class="card-text">&#8377 44</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                                            <input type="hidden" name="amount" value="7.99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://5.imimg.com/data5/HH/CI/SW/SELLER-59097240/200ml-real-pomegranate-juice-500x500.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Real Juice</h5>
+                                <p class="card-text">&#8377 65</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                                            <input type="hidden" name="amount" value="7.99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://cdnprod.mafretailproxy.com/cdn-cgi/image/format=auto,onerror=redirect/sys-master-prod/h3b/h6f/11387758772254/672_main.jpg_1700Wx1700H" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ice Tea</h5>
+                                <p class="card-text">&#8377 50</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                                            <input type="hidden" name="amount" value="7.99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="footer container-fluid">
+        <div class="footer-content row">
+            <div class="footer-section about col-md-4">
+                <img src="resources/dark-logo-2.png" alt="Brand-logo">
+                <br>
+                <p>
+                    We Provide Best Prices for anything that you buy here. Let Your Money Bring The Best to you. THe
+                    right To you.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"> &nbsp; +91 - 7004341074</i></span>
+                    <span><i class="fas fa-envelope">&nbsp;astroitsol@gmail.com</i></span>
+                </div>
+
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links col-md-4">
+                <h2>Quick Links</h2>
+                <br />
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">My Cart</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form col-md-4">
+                <h2>Contact us</h2>
+                <form action="index.html">
+                    <input type="email" name="email" class="text-input contact-input"
+                        placeholder="Your email address...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envelope">
+                        </i>
+                        send
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom row">
+            <div class="col-12">
+                &copy; BuyRight.com | Designed by Astro IT Solutions.
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Scrollback to top -->
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+
+
+
+</body>
+
+</html>
