@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="favicon/favicon1.ico" type="image/x-icon"> -->
+    <link rel="icon" href="favicon/favicon1.ico" type="image/x-icon">
+
+    <title>
+
+        BUY RIGHT | ONLINE STORE
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- favicon -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicon_io/site.webmanifest">
+
+    <!-- bootstrap cdn added -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/01f85b27a0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Fonts added -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+
+    <!-- custom css and js -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Branded Food</a>
+            <a href="#">HouseHolds</a>
+            <a href="#">Veggies & Fruits</a>
+            <a href="#">Kitchen</a>
+            <a href="#">Short Codes</a>
+            <a href="#">Beverages</a>
+            <a href="#">Pet Food</a>
+            <a href="#">Frozen Food</a>
+            <a href="#">Bread & Bakery</a>
+        </div>
+
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer" class="slide-btn" onclick="openNav()">&#9776; </span>
+        </div>
+
+        <a class="navbar-brand" href="#"><img src="resources/dark-logo-2.png" alt="Brand-logo"></a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" id="nav-content">Events</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" id="nav-content">About Us</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="#" id="nav-content">Best Deals</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="#" id="nav-content">Services</a>
+            </li>
+
+
+        </ul>
+
+        <form action="#" method="post" class="last">
+            <fieldset>
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="display" value="1">
+                <input type="submit" name="submit" value="View your cart" class="button ">
+            </fieldset>
+        </form>
+
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="login.html">Login</a>
+                <a class="dropdown-item" href="#">Sign Up</a>
+                <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+            </div>
+        </div>
+
+
+        <form class="form-inline my-2 my-lg-0">
+
+            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary " type="submit" style="margin-bottom: 8px;">&nbsp;Search</button>
+        </form>
+
+    </nav>
+
+
+
+
+
+    <div class="page-content container-fluid">
+
+        <div class="top-brands">
+            <div class="First-Card">
+                <h3 style="text-align: center;" class="top-offers">Fresh Bakery</h3>
+                <div class="container card-container">
+
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <!-- <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div> -->
+                            <img src="https://lh3.googleusercontent.com/proxy/8V3wQi62OSY52_8hjhVy-F_B0WS51nzNYqSSx7Qkr3ko1_fHKqWqr_3kHOK8Fp1l_wqKrD7w04TZnX0ETvbGmRusfTVhe_h7Hz3DC9-FUW1Vy3S4IG9JHiXHtw"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Healthy Slice</h5>
+                                <p class="card-text"> &#8377 35 </p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Healthy Slice">
+                                            <input type="hidden" name="amount" value="35">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+
+                                            <input type="submit" name="submit" value="Add to cart" class="button btn-11"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <!-- <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div> -->
+
+                            <img src="https://lh3.googleusercontent.com/proxy/7gdp5S-hRK-y72nF4bOpi3VmF10_fHEhb5u7-5_C91mhqXe6fKRkKtdjFw5E8_Nrb1jeRO0cE1cyKmXQkWLx2DE7iXaGP1MjgFtAMOh8tzRArKsoXD0" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">White Bread</h5>
+                                <p class="card-text"> &#8377 33</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="White Bread">
+                                            <input type="hidden" name="amount" value="33">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <img src="images/offer.png" alt=" " class="img-responsive">
+                            </div>
+                            <img src="https://farms2fresh.com/website/image/product.template/13042_5b84fc6/image"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sweet Slice</h5>
+                                <p class="card-text">&#8377 39 <del>&nbsp;45</del></p>
+                                <div class="snipcart-details top_brand_home_details ">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Sweet Slice">
+                                            <input type="hidden" name="amount" value="39">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted">1L</small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://www.simplisubscribe.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/2/1/216738.jpg"                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Missi Bread</h5>
+                                <p class="card-text">&#8377 44</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Missi Bread">
+                                            <input type="hidden" name="amount" value="44">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="Second-card" style="margin-bottom: 5%;">
+                <div class="container card-container">
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://cdn.shopify.com/s/files/1/0037/4269/5459/products/cc5b53be27a6e3ca9b95124374fea983_300x300.png?v=1560323765"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Multi Grain Bread</h5>
+                                <p class="card-text">&#8377 50</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Multi Grain Bread">
+                                            <input type="hidden" name="amount" value="55">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://www.simplisubscribe.com/media/catalog/product/cache/image/265x265/beff4985b56e3afdbeabfc89641a4582/2/1/216727.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Oats & Hon Bread</h5>
+                                <p class="card-text">&#8377 32</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Oats & Hon Bread">
+                                            <input type="hidden" name="amount" value="32">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <img src="images/offer.png" alt=" " class="img-responsive">
+                            </div>
+                            <img src="https://www.jiomart.com/images/product/240x240/490007738/britannia-toastea-premium-bake-rusk-200-g-0-20200924.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Toastea</h5>
+                                <p class="card-text">&#8377 29 <del>&nbsp; 35</del></p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Toastea">
+                                            <input type="hidden" name="amount" value="35">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <img src="images/tag.png" alt=" " class="img-responsive">
+                            </div>
+                            <img src="https://res.sastasundar.com/incom/images/product/Britannia-Milk-Rusk-Toastea-BiscuitsFree-Glass-Bowl-1544075485-10053230-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Toastea (Milk)</h5>
+                                <p class="card-text">&#8377 39</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Toastea (Milk)">
+                                            <input type="hidden" name="amount" value="39">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="Third-card">
+                <div class="container card-container">
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://choosefresh.in/image/cache/data/Bakery/109-500x500.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fruit Cake</h5>
+                                <p class="card-text">&#8377 18</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Fruit Cake">
+                                            <input type="hidden" name="amount" value="18">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"> </small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://mazbox.in/pub/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/e/3/e3f5327083398423c2c8454dd1320256.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pineapple Cake</h5>
+                                <p class="card-text">&#8377 34</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Pineapple Cake">
+                                            <input type="hidden" name="amount" value="34">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://ekcon.online/pub/media/catalog/product/cache/7/thumbnail/210x210/beff4985b56e3afdbeabfc89641a4582/f/r/fruit-bar-cake-veg-500x500.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Monginis Cake</h5>
+                                <p class="card-text">&#8377 16</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Monginis Cake">
+                                            <input type="hidden" name="amount" value="16">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/71YODYZackL._SX425_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cookie Cake</h5>
+                                <p class="card-text">&#8377 50</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Cookie Cake">
+                                            <input type="hidden" name="amount" value="50">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="footer container-fluid">
+        <div class="footer-content row">
+            <div class="footer-section about col-md-4">
+                <img src="resources/dark-logo-2.png" alt="Brand-logo">
+                <br>
+                <p>
+                    We Provide Best Prices for anything that you buy here. Let Your Money Bring The Best to you. THe
+                    right To you.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"> &nbsp; +91 - 7004341074</i></span>
+                    <span><i class="fas fa-envelope">&nbsp;astroitsol@gmail.com</i></span>
+                </div>
+
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links col-md-4">
+                <h2>Quick Links</h2>
+                <br />
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">My Cart</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form col-md-4">
+                <h2>Contact us</h2>
+                <form action="index.html">
+                    <input type="email" name="email" class="text-input contact-input"
+                        placeholder="Your email address...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envelope">
+                        </i>
+                        send
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom row">
+            <div class="col-12">
+                &copy; BuyRight.com | Designed by Astro IT Solutions.
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Scrollback to top -->
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+
+
+
+</body>
+
+</html>
