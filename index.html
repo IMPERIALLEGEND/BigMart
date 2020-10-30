@@ -1,489 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="shortcut icon" href="favicon/favicon1.ico" type="image/x-icon"> -->
-      <link rel="icon" href="favicon/favicon1.ico" type="image/x-icon">
-    
-    <title>
-      
-      BUY RIGHT | ONLINE STORE
-     </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
-    <!-- favicon -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon/favicon1.ico" type="image/x-icon"> -->
+  <link rel="icon" href="favicon/favicon1.ico" type="image/x-icon">
+
+  <title>
+
+    BUY RIGHT | ONLINE STORE
+  </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- favicon -->
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/resources/favicon_io/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/resources/favicon_io/site.webmanifest">
 
-    <!-- bootstrap cdn added -->
+  <!-- bootstrap cdn added -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    
-    <!-- font awesome -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
-    <script src="https://kit.fontawesome.com/01f85b27a0.js" crossorigin="anonymous"></script>
+  <!-- font awesome -->
+
+  <script src="https://kit.fontawesome.com/01f85b27a0.js" crossorigin="anonymous"></script>
 
 
-    <!-- Fonts added -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
-    
-    <!-- custom css and js -->
-    
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Fonts added -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
 
-    <script src="js/index.js"></script>
-  </head>
+  <!-- custom css and js -->
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js/index.js"></script>
+</head>
+
 <body>
-  
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Branded Food</a>
-        <a href="#">HouseHolds</a>
-        <a href="#">Veggies & Fruits</a>
-        <a href="#">Kitchen</a>
-        <a href="#">Short Codes</a>
-        <a href="#">Beverages</a>
-        <a href="#">Pet Food</a>
-        <a href="#">Frozen Food</a>
-        <a href="#">Bread & Bakery</a>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Branded Food</a>
+      <a href="#">HouseHolds</a>
+      <a href="#">Veggies & Fruits</a>
+      <a href="#">Kitchen</a>
+      <a href="#">Short Codes</a>
+      <a href="bevereges.html">Beverages</a>
+      <a href="petFood.html">Pet Food</a>
+      <a href="FrozenFood.html">Frozen Food</a>
+      <a href="Bakery.html">Bread & Bakery</a>
+    </div>
+
+    <div id="main">
+
+      <span style="font-size:30px;cursor:pointer" class="slide-btn" onclick="openNav()">&#9776; </span>
+    </div>
+
+    <a class="navbar-brand" href="#"><img src="resources/dark-logo-2.png" alt="Brand-logo"></a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="Events.html" id="nav-content">Events</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#" id="nav-content">About Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="#" id="nav-content">Best Deals</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="#" id="nav-content">Services</a>
+      </li>
+
+
+    </ul>
+
+    <form action="#" method="post" class="last">
+      <fieldset>
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="display" value="1">
+        <input type="submit" name="submit" value="View your cart" class="button ">
+      </fieldset>
+    </form>
+
+    <div class="dropdown show">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-user" aria-hidden="true"></i>
+      </a>
+
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="signlog.html">Login</a>
+        <a class="dropdown-item" href="signlog.html">Sign Up</a>
+        <!-- <a class="dropdown-item" href="#">Something else here</a> -->
       </div>
-      
-      <div id="main">
-       
-        <span style="font-size:30px;cursor:pointer" class="slide-btn" onclick="openNav()">&#9776; </span>
-      </div>
+    </div>
 
-          <a class="navbar-brand" href="#"><img src="resources/dark-logo-2.png" alt="Brand-logo"></a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="Events.html" id="nav-content">Events</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#" id="nav-content">About Us</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link " href="#" id="nav-content">Best Deals</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link " href="#" id="nav-content">Services</a>
-            </li>
-            
 
-          </ul>
+    <form class="form-inline my-2 my-lg-0">
 
-          <form action="#" method="post" class="last">
-            <fieldset>
-                <input type="hidden" name="cmd" value="_cart">
-                <input type="hidden" name="display" value="1">
-                <input type="submit" name="submit" value="View your cart" class="button ">
-            </fieldset>
-        </form>
+      <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-secondary " type="submit" style="margin-bottom: 8px;">&nbsp;Search</button>
+    </form>
 
-        <div class="dropdown show">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-user" aria-hidden="true"></i>
-          </a>
-        
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="signlog.html">Login</a>
-            <a class="dropdown-item" href="signlog.html">Sign Up</a>
-            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+  </nav>
+
+
+
+
+
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url(images/1.jpg)">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="display-4">Make Your Food With Spicy</h2>
+            <p class="lead">This is a description for the first slide.</p>
           </div>
         </div>
-
-        
-          <form class="form-inline my-2 my-lg-0">
-            
-            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-secondary " type="submit" style="margin-bottom: 8px;">&nbsp;Search</button>
-          </form>
-        
-    </nav>
-    
-
-    
-
-
-
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url(images/1.jpg)">
-            <div class="carousel-caption d-none d-md-block">
-              <h2 class="display-4">Make Your Food With Spicy</h2>
-              <p class="lead">This is a description for the first slide.</p>
-            </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/2.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h2 class="display-4">Fresh Vegetables</h2>
-              <p class="lead">This is a description for the second slide.</p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/3.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h2 class="display-4">Drink And Relax</h2>
-              <p class="lead">This is a description for the third slide.</p>
-            </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('images/2.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="display-4">Fresh Vegetables</h2>
+            <p class="lead">This is a description for the second slide.</p>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('images/3.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="display-4">Drink And Relax</h2>
+            <p class="lead">This is a description for the third slide.</p>
+          </div>
+        </div>
       </div>
-    </header>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
 
 
-    <div class="page-content container-fluid">
-      
-      <!-- Banner -->
+  <div class="page-content container-fluid">
+
+    <!-- Banner -->
 
 
-      <div class="container Banner">
-        <div class="row">
-          <div class="col-md-4">
-            
-            <img src="images/4.jpg" alt="" >
-            <div class="wthree_banner_bottom_left_grid_pos">
-							<h4>Discount Offer <span>25%</span></h4>
-						</div>
-            
-            
+    <div class="container Banner">
+      <div class="row">
+        <div class="col-md-4">
+
+          <img src="images/4.jpg" alt="">
+          <div class="wthree_banner_bottom_left_grid_pos">
+            <h4>Discount Offer <span>25%</span></h4>
           </div>
-          <div class="col-md-4">
-            <img src="images/5.jpg" alt="">
 
-            <div class="wthree_banner_btm_pos" style="top: 8px;">
-							<h3>introducing <span>best store</span> for <i>groceries</i></h3>
-            </div>
-            
+
+        </div>
+        <div class="col-md-4">
+          <img src="images/5.jpg" alt="">
+
+          <div class="wthree_banner_btm_pos" style="top: 8px;">
+            <h3>introducing <span>best store</span> for <i>groceries</i></h3>
           </div>
-          <div class="col-md-4">
-            <img src="images/6.jpg" alt="">
-            <div class="wthree_banner_btm_pos1">
-							<h3>Save <span>Upto</span> &#8377 150</h3>
-						</div>
-            
+
+        </div>
+        <div class="col-md-4">
+          <img src="images/6.jpg" alt="">
+          <div class="wthree_banner_btm_pos1">
+            <h3>Save <span>Upto</span> $10</h3>
           </div>
-          <style>
-            img{
-                max-width: 100%;
-                max-height: 100%;
-                display: block; /* remove extra space below image */
-            }
-            
+
+        </div>
+        <style>
+          img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            /* remove extra space below image */
+          }
         </style>
-        </div>
-
-
-
       </div>
 
 
 
+    </div>
 
 
-      <!-- Banner End -->
-      
 
-      <div class="top-brands">
+
+
+    <!-- Banner End -->
+
+
+    <div class="top-brands">
       <div class="First-Card">
         <h3 style="text-align: center;" class="top-offers">Hot Offers</h3>
-      <div class="container card-container">
-        
+        <div class="container card-container">
 
 
-    <div class="card-deck row">
-      <div class="card col-md-4">
-        <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div>
-        <img src="img/1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Generic Product</p>
-          <div class="snipcart-details top_brand_home_details">
-            <form action="checkout.html" method="post">
-              <fieldset>
-                <input type="hidden" name="cmd" value="_cart">
-                <input type="hidden" name="add" value="1">
-                <input type="hidden" name="business" value=" ">
-                <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                <input type="hidden" name="amount" value="7.99">
-                <input type="hidden" name="discount_amount" value="1.00">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="return" value=" ">
-                <input type="hidden" name="cancel_return" value=" ">
-                
-                <input type="submit" name="submit" value="Add to cart" class="button btn-11" style="background-color: red;">
-                
-              </fieldset>
-                
-            </form>
-        
+
+          <div class="card-deck row">
+            <div class="card col-md-4">
+              <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div>
+              <img src="https://www.desibazaargrocery.com/image/cache/catalog/frozen/product-936-300x300.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lacha Paratha</h5>
+                <p class="card-text">&#8377 150</p>
+                <div class="snipcart-details top_brand_home_details">
+                  <form action="checkout.html" method="post">
+                    <fieldset>
+                      <input type="hidden" name="cmd" value="_cart">
+                      <input type="hidden" name="add" value="1">
+                      <input type="hidden" name="business" value=" ">
+                      <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                      <input type="hidden" name="amount" value="7.99">
+                      <input type="hidden" name="discount_amount" value="1.00">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="return" value=" ">
+                      <input type="hidden" name="cancel_return" value=" ">
+
+                      <input type="submit" name="submit" value="Add to cart" class="button btn-11"
+                        style="background-color: red;">
+
+                    </fieldset>
+
+                  </form>
+
+                </div>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+            <div class="card col-md-4">
+              <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div>
+
+              <img
+                src="https://images.unsplash.com/photo-1571114865995-9545aedcd241?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pepsi</h5>
+                <p class="card-text"> &#8377 30 </p>
+                <div class="snipcart-details top_brand_home_details">
+                  <form action="checkout.html" method="post">
+                    <fieldset>
+                      <input type="hidden" name="cmd" value="_cart">
+                      <input type="hidden" name="add" value="1">
+                      <input type="hidden" name="business" value=" ">
+                      <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                      <input type="hidden" name="amount" value="7.99">
+                      <input type="hidden" name="discount_amount" value="1.00">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="return" value=" ">
+                      <input type="hidden" name="cancel_return" value=" ">
+                      <input type="submit" name="submit" value="Add to cart" class="button"
+                        style="background-color: red;">
+
+                    </fieldset>
+
+                  </form>
+
+                </div>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+            <div class="card col-md-4">
+              <div class="agile_top_brand_left_grid_pos">
+                <img src="images/offer.png" alt=" " class="img-responsive">
+              </div>
+              <img
+                src="https://res.sastasundar.com/incom/images/product/Britannia-Milk-Rusk-Toastea-BiscuitsFree-Glass-Bowl-1544075485-10053230-1.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Toastea (Milk)</h5>
+                <p class="card-text">&#8377 39</p>
+                <div class="snipcart-details top_brand_home_details">
+                  <form action="checkout.html" method="post">
+                    <fieldset>
+                      <input type="hidden" name="cmd" value="_cart">
+                      <input type="hidden" name="add" value="1">
+                      <input type="hidden" name="business" value=" ">
+                      <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                      <input type="hidden" name="amount" value="7.99">
+                      <input type="hidden" name="discount_amount" value="1.00">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="return" value=" ">
+                      <input type="hidden" name="cancel_return" value=" ">
+                      <input type="submit" name="submit" value="Add to cart" class="button"
+                        style="background-color: red;">
+
+                    </fieldset>
+
+                  </form>
+
+                </div>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+            <div class="card col-md-4">
+              <div class="agile_top_brand_left_grid_pos">
+                <img src="images/offer.png" alt=" " class="img-responsive">
+              </div>
+              <img src="https://images-na.ssl-images-amazon.com/images/I/61nLtOuAlYL._SL1000_.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kennel Cat Food</h5>
+                <p class="card-text"> &#8377 300 </p>
+                <div class="snipcart-details top_brand_home_details">
+                  <form action="checkout.html" method="post">
+                    <fieldset>
+                      <input type="hidden" name="cmd" value="_cart">
+                      <input type="hidden" name="add" value="1">
+                      <input type="hidden" name="business" value=" ">
+                      <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                      <input type="hidden" name="amount" value="7.99">
+                      <input type="hidden" name="discount_amount" value="1.00">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="return" value=" ">
+                      <input type="hidden" name="cancel_return" value=" ">
+                      <input type="submit" name="submit" value="Add to cart" class="button"
+                        style="background-color: red;">
+
+                    </fieldset>
+
+                  </form>
+
+                </div>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
           </div>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+
         </div>
+
       </div>
-      <div class="card col-md-4">
-        <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div>
-        
-        <img src="img/2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Generic Product</p>
-          <div class="snipcart-details top_brand_home_details">
-            <form action="checkout.html" method="post">
-              <fieldset>
-                <input type="hidden" name="cmd" value="_cart">
-                <input type="hidden" name="add" value="1">
-                <input type="hidden" name="business" value=" ">
-                <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                <input type="hidden" name="amount" value="7.99">
-                <input type="hidden" name="discount_amount" value="1.00">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="return" value=" ">
-                <input type="hidden" name="cancel_return" value=" ">
-                <input type="submit" name="submit" value="Add to cart" class="button" style="background-color: red;">
-                
-              </fieldset>
-                
-            </form>
-        
+
+
+      <div class="Second-card">
+        <div class="container card-container">
+
+
+          <div class="card-deck row">
+            <div class="card col-md-4">
+              <div class="agile_top_brand_left_grid_pos">
+                <img src="images/offer.png" alt=" " class="img-responsive">
+              </div>
+              <img src="img/5.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Generic Product</p>
+                <div class="snipcart-details top_brand_home_details">
+                  <form action="checkout.html" method="post">
+                    <fieldset>
+                      <input type="hidden" name="cmd" value="_cart">
+                      <input type="hidden" name="add" value="1">
+                      <input type="hidden" name="business" value=" ">
+                      <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                      <input type="hidden" name="amount" value="7.99">
+                      <input type="hidden" name="discount_amount" value="1.00">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="return" value=" ">
+                      <input type="hidden" name="cancel_return" value=" ">
+                      <input type="submit" name="submit" value="Add to cart" class="button"
+                        style="background-color: red;">
+
+                    </fieldset>
+
+                  </form>
+
+                </div>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card col-md-4">
+              <div class="agile_top_brand_left_grid_pos">
+                <img src="images/offer.png" alt=" " class="img-responsive">
+              </div>
+              <img src="img/6.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Generic Product</p>
+                <div class="snipcart-details top_brand_home_details">
+                  <form action="checkout.html" method="post">
+                    <fieldset>
+                      <input type="hidden" name="cmd" value="_cart">
+                      <input type="hidden" name="add" value="1">
+                      <input type="hidden" name="business" value=" ">
+                      <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                      <input type="hidden" name="amount" value="7.99">
+                      <input type="hidden" name="discount_amount" value="1.00">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="return" value=" ">
+                      <input type="hidden" name="cancel_return" value=" ">
+                      <input type="submit" name="submit" value="Add to cart" class="button"
+                        style="background-color: red;">
+
+                    </fieldset>
+
+                  </form>
+
+                </div>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card col-md-4">
+              <div class="agile_top_brand_left_grid_pos">
+                <img src="images/offer.png" alt=" " class="img-responsive">
+              </div>
+              <img src="img/7.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Product</p>
+                <div class="snipcart-details top_brand_home_details">
+                  <form action="checkout.html" method="post">
+                    <fieldset>
+                      <input type="hidden" name="cmd" value="_cart">
+                      <input type="hidden" name="add" value="1">
+                      <input type="hidden" name="business" value=" ">
+                      <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                      <input type="hidden" name="amount" value="7.99">
+                      <input type="hidden" name="discount_amount" value="1.00">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="return" value=" ">
+                      <input type="hidden" name="cancel_return" value=" ">
+                      <input type="submit" name="submit" value="Add to cart" class="button"
+                        style="background-color: red;">
+
+                    </fieldset>
+
+                  </form>
+
+                </div>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card col-md-4">
+              <div class="agile_top_brand_left_grid_pos">
+                <img src="images/offer.png" alt=" " class="img-responsive">
+              </div>
+              <img src="img/8.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Generic Product</p>
+                <div class="snipcart-details top_brand_home_details">
+                  <form action="checkout.html" method="post">
+                    <fieldset>
+                      <input type="hidden" name="cmd" value="_cart">
+                      <input type="hidden" name="add" value="1">
+                      <input type="hidden" name="business" value=" ">
+                      <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
+                      <input type="hidden" name="amount" value="7.99">
+                      <input type="hidden" name="discount_amount" value="1.00">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="return" value=" ">
+                      <input type="hidden" name="cancel_return" value=" ">
+                      <input type="submit" name="submit" value="Add to cart" class="button"
+                        style="background-color: red;">
+
+                    </fieldset>
+
+                  </form>
+
+                </div>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
           </div>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
+
+
       </div>
-      <div class="card col-md-4">
-        <div class="agile_top_brand_left_grid_pos">
-          <img src="images/offer.png" alt=" " class="img-responsive">
-        </div>
-        <img src="img/3.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Generic Product</p>
-          <div class="snipcart-details top_brand_home_details">
-            <form action="checkout.html" method="post">
-              <fieldset>
-                <input type="hidden" name="cmd" value="_cart">
-                <input type="hidden" name="add" value="1">
-                <input type="hidden" name="business" value=" ">
-                <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                <input type="hidden" name="amount" value="7.99">
-                <input type="hidden" name="discount_amount" value="1.00">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="return" value=" ">
-                <input type="hidden" name="cancel_return" value=" ">
-                <input type="submit" name="submit" value="Add to cart" class="button" style="background-color: red;">
-                
-              </fieldset>
-                
-            </form>
-        
-          </div>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card col-md-4">
-        <div class="agile_top_brand_left_grid_pos">
-          <img src="images/offer.png" alt=" " class="img-responsive">
-        </div>
-        <img src="img/4.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Generic Product</p>
-          <div class="snipcart-details top_brand_home_details">
-            <form action="checkout.html" method="post">
-              <fieldset>
-                <input type="hidden" name="cmd" value="_cart">
-                <input type="hidden" name="add" value="1">
-                <input type="hidden" name="business" value=" ">
-                <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                <input type="hidden" name="amount" value="7.99">
-                <input type="hidden" name="discount_amount" value="1.00">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="return" value=" ">
-                <input type="hidden" name="cancel_return" value=" ">
-                <input type="submit" name="submit" value="Add to cart" class="button" style="background-color: red;">
-                
-              </fieldset>
-                
-            </form>
-        
-          </div>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
+
+
+
+
+
+
+
 
     </div>
 
-
-  </div>
-
-</div>
-
-
-   <div class="Second-card">
-    <div class="container card-container">
-
-
-      <div class="card-deck row">
-        <div class="card col-md-4">
-          <div class="agile_top_brand_left_grid_pos">
-            <img src="images/offer.png" alt=" " class="img-responsive">
-          </div>
-          <img src="img/5.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Generic Product</p>
-            <div class="snipcart-details top_brand_home_details">
-              <form action="checkout.html" method="post">
-                <fieldset>
-                  <input type="hidden" name="cmd" value="_cart">
-                  <input type="hidden" name="add" value="1">
-                  <input type="hidden" name="business" value=" ">
-                  <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                  <input type="hidden" name="amount" value="7.99">
-                  <input type="hidden" name="discount_amount" value="1.00">
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="hidden" name="return" value=" ">
-                  <input type="hidden" name="cancel_return" value=" ">
-                  <input type="submit" name="submit" value="Add to cart" class="button" style="background-color: red;">
-                  
-                </fieldset>
-                  
-              </form>
-          
-            </div>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card col-md-4">
-          <div class="agile_top_brand_left_grid_pos">
-            <img src="images/offer.png" alt=" " class="img-responsive">
-          </div>
-          <img src="img/6.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Generic Product</p>
-            <div class="snipcart-details top_brand_home_details">
-              <form action="checkout.html" method="post">
-                <fieldset>
-                  <input type="hidden" name="cmd" value="_cart">
-                  <input type="hidden" name="add" value="1">
-                  <input type="hidden" name="business" value=" ">
-                  <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                  <input type="hidden" name="amount" value="7.99">
-                  <input type="hidden" name="discount_amount" value="1.00">
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="hidden" name="return" value=" ">
-                  <input type="hidden" name="cancel_return" value=" ">
-                  <input type="submit" name="submit" value="Add to cart" class="button" style="background-color: red;">
-                  
-                </fieldset>
-                  
-              </form>
-          
-            </div>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card col-md-4">
-          <div class="agile_top_brand_left_grid_pos">
-            <img src="images/offer.png" alt=" " class="img-responsive">
-          </div>
-          <img src="img/7.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Product</p>
-            <div class="snipcart-details top_brand_home_details">
-              <form action="checkout.html" method="post">
-                <fieldset>
-                  <input type="hidden" name="cmd" value="_cart">
-                  <input type="hidden" name="add" value="1">
-                  <input type="hidden" name="business" value=" ">
-                  <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                  <input type="hidden" name="amount" value="7.99">
-                  <input type="hidden" name="discount_amount" value="1.00">
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="hidden" name="return" value=" ">
-                  <input type="hidden" name="cancel_return" value=" ">
-                  <input type="submit" name="submit" value="Add to cart" class="button" style="background-color: red;">
-                  
-                </fieldset>
-                  
-              </form>
-          
-            </div>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card col-md-4">
-          <div class="agile_top_brand_left_grid_pos">
-            <img src="images/offer.png" alt=" " class="img-responsive">
-          </div>
-          <img src="img/8.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Generic Product</p>
-            <div class="snipcart-details top_brand_home_details">
-              <form action="checkout.html" method="post">
-                <fieldset>
-                  <input type="hidden" name="cmd" value="_cart">
-                  <input type="hidden" name="add" value="1">
-                  <input type="hidden" name="business" value=" ">
-                  <input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-                  <input type="hidden" name="amount" value="7.99">
-                  <input type="hidden" name="discount_amount" value="1.00">
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="hidden" name="return" value=" ">
-                  <input type="hidden" name="cancel_return" value=" ">
-                  <input type="submit" name="submit" value="Add to cart" class="button" style="background-color: red;">
-                  
-                </fieldset>
-                  
-              </form>
-          
-            </div>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-  
-      </div>
-    </div>
-
-
-    </div>
-
-
-
- 
-
-
-
-    
-  </div>
-    
 
     <!-- Page content goes in the below div -->
 
@@ -492,78 +513,79 @@
 
 
 
-     
-
-        
-
-      </div>
-
-     
 
 
-   
-    
-    <div class="footer container-fluid">
-      <div class="footer-content row">
-        <div class="footer-section about col-md-4">
-         <img src="resources/dark-logo-2.png" alt="Brand-logo">
-         <br>
-          <p>
-            We Provide Best Prices for anything that you buy here. Let Your Money Bring The Best to you. THe right To you.
-          </p>
-          <div class="contact">
-            <span><i class="fas fa-phone"> &nbsp; +91 - 7004341074</i></span>
-            <span><i class="fas fa-envelope">&nbsp;astroitsol@gmail.com</i></span>
-          </div>
 
-          <div class="socials">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-          </div>
+
+  </div>
+
+
+
+
+
+
+  <div class="footer container-fluid">
+    <div class="footer-content row">
+      <div class="footer-section about col-md-4">
+        <img src="resources/dark-logo-2.png" alt="Brand-logo">
+        <br>
+        <p>
+          We Provide Best Prices for anything that you buy here. Let Your Money Bring The Best to you. THe right To you.
+        </p>
+        <div class="contact">
+          <span><i class="fas fa-phone"> &nbsp; +91 - 7004341074</i></span>
+          <span><i class="fas fa-envelope">&nbsp;astroitsol@gmail.com</i></span>
         </div>
-        <div class="footer-section links col-md-4">     <h2>Quick Links</h2>
-          <br/>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">My Profile</a></li>
-            <li><a href="#">My Cart</a></li>
-            <li><a href="#">Developers</a></li>
-          </ul>
-        </div>
-        <div class="footer-section contact-form col-md-4">
-          <h2>Contact us</h2>
-          <form action="index.html">
-            <input type="email" name="email" class="text-input contact-input"  placeholder="Your email address...">
-            <textarea name="message"  class="text-input contact-input" placeholder="Your message..."></textarea>
-            <button type="submit" class="btn btn-big contact-btn">
-              <i class="fas fa-envelope">
-              </i>
-              send
-            </button>
-          </form>
+
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-    
-      <div class="footer-bottom row">
-        <div class="col-12">
-        &copy; BuyRight.com | Designed by Astro IT Solutions.
-        </div>
+      <div class="footer-section links col-md-4">
+        <h2>Quick Links</h2>
+        <br />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Profile</a></li>
+          <li><a href="#">My Cart</a></li>
+          <li><a href="#">Developers</a></li>
+        </ul>
       </div>
-
-  
+      <div class="footer-section contact-form col-md-4">
+        <h2>Contact us</h2>
+        <form action="index.html">
+          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+          <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+          <button type="submit" class="btn btn-big contact-btn">
+            <i class="fas fa-envelope">
+            </i>
+            send
+          </button>
+        </form>
+      </div>
     </div>
 
-      
-     <!-- Scrollback to top -->
-     <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
-      <i class="fas fa-chevron-up"></i>
-    </a>
-      
-      
-  
-    
+    <div class="footer-bottom row">
+      <div class="col-12">
+        &copy; BuyRight.com | Designed by Astro IT Solutions.
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- Scrollback to top -->
+  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+
+
+
 
 </body>
 
