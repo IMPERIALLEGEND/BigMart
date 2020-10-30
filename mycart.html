@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="favicon/favicon1.ico" type="image/x-icon"> -->
+      <link rel="icon" href="favicon/favicon1.ico" type="image/x-icon">
+    
+    <title>
+      Track Order | BUY RIGHT | ONLINE STORE
+     </title>
+
+    
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,700italic,900);
+    body { font-family: 'Roboto', Arial, sans-serif !important; }
+    a[href^="tel"]{
+        color:inherit;
+        text-decoration:none;
+        outline:0;
+    }
+    a:hover, a:active, a:focus{
+        outline:0;
+    }
+    a:visited{
+        color:#FFF;
+    }
+    span.MsoHyperlink {
+        mso-style-priority:99;
+        color:inherit;
+    }
+    span.MsoHyperlinkFollowed {
+        mso-style-priority:99;
+        color:inherit;
+    }
+  </style>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css\MyOrder.css">
+    
+    
+    
+    
+
+    <!-- favicon -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicon_io/site.webmanifest">
+
+    <!-- bootstrap cdn added -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/01f85b27a0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Fonts added -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    
+    <!-- custom css and js -->
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/index.js"></script>
+  </head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Branded Food</a>
+        <a href="#">HouseHolds</a>
+        <a href="#">Veggies & Fruits</a>
+        <a href="#">Kitchen</a>
+        <a href="#">Short Codes</a>
+        <a href="#">Beverages</a>
+        <a href="#">Pet Food</a>
+        <a href="#">Frozen Food</a>
+        <a href="#">Bread & Bakery</a>
+      </div>
+      
+      <div id="main">
+       
+        <span style="font-size:30px;cursor:pointer" class="slide-btn" onclick="openNav()">&#9776; </span>
+      </div>
+
+          <a class="navbar-brand" href="#"><img src="resources/dark-logo-2.png" alt="Brand-logo"></a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="nav-content">Events</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="nav-content">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#" id="nav-content">Best Deals</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#" id="nav-content">Services</a>
+            </li>
+            
+
+          </ul>
+
+          <form action="#" method="post" class="last">
+            <fieldset>
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="display" value="1">
+                <input type="submit" name="submit" value="View your cart" class="button ">
+            </fieldset>
+        </form>
+
+        <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="login.html">Login</a>
+            <a class="dropdown-item" href="#">Sign Up</a>
+            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+          </div>
+        </div>
+
+        
+          <form class="form-inline my-2 my-lg-0">
+            
+            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary " type="submit" style="margin-bottom: 8px;">&nbsp;Search</button>
+          </form>
+        
+    </nav>
+    
+
+    
+
+
+    <div class="page-content container-fluid">
+
+
+        <div class="container"> 
+            <div class="row">
+						<div class="col-12 col-md-10 hh-grayBox pt45 pb20">
+							<div class="row justify-content-between">
+								<div class="order-tracking completed">
+									<span class="is-complete"></span>
+									<p>Ordered<br><span>Mon, June 24</span></p>
+								</div>
+								<div class="order-tracking completed">
+									<span class="is-complete"></span>
+									<p>Shipped<br><span>Tue, June 25</span></p>
+								</div>
+								<div class="order-tracking">
+									<span class="is-complete"></span>
+									<p>Delivered<br><span>Fri, June 28</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+        </div>
+        
+        
+        <div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+    Questions? Call us any time 24/7 at 1800-501-BUY or simply reply to this email | AtharvaChavan1@gmail.com
+  </div>
+  <table cellspacing="0" style="margin:0 20px; width:100%; border-collapse:collapse; background-color:#EEEEEE; font-family:'Roboto', Arial !important">
+    <tbody>
+      <tr>
+        <td align="center" style="padding:20px 28px 0 23px">
+          <table width="600" style="background-color:#FFF; margin:0 auto; border-radius:5px; border-collapse:collapse">
+            <tbody>
+              <tr>
+                <td align="center">
+                  <table width="500" style="margin:0 auto">
+                    <tbody>
+
+                      <tr>
+                        <td align="center" style="padding:40px 0 35px 0">
+                          <a href="#" style="color:#f7be16; text-decoration:none;outline:0;"><img alt="" src="https://www.chewy.com/static/cms/lp/email/logo.png" border="0"></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="font-family:'Roboto', Arial !important">
+                          <h2 style="margin:0; font-weight:bold; font-size:40px; color:#444; text-align:center; font-family:'Roboto', Arial !important">
+                                        Thanks for your order
+                                    </h2>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="padding:15px 0 20px 0; font-family:'Roboto', Arial !important">
+                          <p style="margin:0; font-size:18px; color:#000; line-height:24px; font-family:'Roboto', Arial !important">
+                            You'll receive an email when your items are shipped. If you have any questions, call us any time at 1800-501-BUY or simply reply to this email.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="padding-bottom:30px">
+                          <table style="width:255px; margin:0 auto;">
+                            <tbody>
+                              <tr>
+                                <td width="255" style="background-color:#f7be16; text-align:center; border-radius:5px; vertical-align:middle; padding:13px 0">
+                                  <a href="" style="outline:0;color:#FFF; text-transform:uppercase; display:block; text-align:center; text-decoration:none; font-weight:bold; font-size:19px;">View Order Status
+                                    </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" cellspacing="0" style="padding:0 0 30px 0; vertical-align:middle">
+                  <table width="550" style="border-collapse:collapse; background-color:#FaFaFa; margin:0 auto; border:1px solid #E5E5E5">
+                    <tbody>
+                      <tr>
+                        <td width="276" style="vertical-align:top; border-right:1px solid #E5E5E5">
+                          <table style="width:100%; border-collapse:collapse">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top; padding:18px 18px 8px 23px; font-family:'Roboto', Arial !important">
+                                  <p style="font-size:16px; color:#333333; text-transform:uppercase; font-weight:900; margin:0; font-family:'Roboto', Arial !important">
+                                    Summary:
+                                  </p>
+                                </td>
+                              </tr>
+                              <tr style="">
+                                <td style="vertical-align:top; padding:0 18px 18px 23px">
+                                  <table width="100%" style="border-collapse:collapse">
+                                    <tbody>
+                                      <tr>
+                                        <td style="font-family:'Roboto', Arial !important">
+                                          <p style="font-size:16px; color:#000; margin:0 0 5px 0; font-family:'Roboto', Arial !important">
+                                            Order #:
+                                          </p>
+                                        </td>
+                                        <td align="left" style="font-family:'Roboto', Arial !important">
+                                          <p style="font-size:16px; color:#000; margin:0 0 5px 0; font-family:'Roboto', Arial !important">
+                                            65006500
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="font-family:'Roboto', Arial !important">
+                                          <p style="font-size:16px; color:#000; margin:0 0 5px 0; font-family:'Roboto', Arial !important">
+                                            Order Date:
+                                          </p>
+                                        </td>
+                                        <td align="left" style="font-family:'Roboto', Arial !important">
+                                          <p style="font-size:16px; color:#000; margin:0 0 5px 0; font-family:'Roboto', Arial !important">
+                                            Apr 3, 2017
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="font-family:'Roboto', Arial !important">
+                                          <p style="font-size:16px; color:#000; margin:0 0 10px 0; font-family:'Roboto', Arial !important">
+                                            Order Total:
+                                          </p>
+                                        </td>
+                                        <td align="left" style="font-family:'Roboto', Arial !important">
+                                          <p style="font-size:16px; color:#000; margin:0 0 10px 0; font-family:'Roboto', Arial !important">
+                                            Rs 49.35
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td align="left" style="font-family:'Roboto', Arial !important;" colspan="2">
+                                          <p style="font-size:16px; color:#bc0101; margin:0;padding:0; font-weight:bold; font-family:'Roboto', Arial !important">
+                                            You saved Rs 12.69!
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td style="vertical-align:top">
+                          <table width="100%" style="border-collapse:collapse">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top; padding:18px 18px 8px 23px; font-family:'Roboto', Arial !important">
+                                  <p style="font-size:16px; color:#333333; text-transform:uppercase; font-weight:900; margin:0; font-family:'Roboto', Arial !important">
+                                    Shipping Address:
+                                  </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="vertical-align:top; padding:0 18px 18px 23px; font-family:'Roboto', Arial !important">
+                                  <table width="100%" style="border-collapse:collapse">
+                                    <tbody>
+                                      <tr>
+                                        <td style="font-family:'Roboto', Arial !important">
+                                          <p style="font-size:16px; color:#000; margin:0 0 5px 0; font-family:'Roboto', Arial !important">
+                                           Customer
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="font-family:'Roboto', Arial !important">
+                                          <p style="font-size:16px; color:#000; margin:0 0 5px 0; font-family:'Roboto', Arial !important">
+                                            DYP Akurdi
+                                          </p>
+                                        </td>
+                                      </tr>
+
+                                      <tr>
+                                        <td style="font-family:'Roboto', Arial !important;">
+                                          <p style="font-size:16px; color:#000; margin:0;padding:0; font-family:'Roboto', Arial !important">
+                                            Nigdi, Pune.
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" cellspacing="0" style="padding:0; vertical-align:middle">
+                  <table width="550" style="border-collapse:collapse; background-color:#FaFaFa; margin:0 auto; border-bottom:1px solid #E5E5E5">
+                    <tbody>
+                      <tr>
+                        <td width="380" align="left" style="padding:15px 0 15px 25px; font-family:'Roboto', Arial !important">
+                          <p style="text-transform:uppercase;font-size:16px; color:#333333; margin:0; font-weight:400; font-family:'Roboto', Arial !important; ">
+                            <span style="font-weight: 900;">  Items Ordered</span>
+                          </p>
+                        </td>
+                        <td width="60" align="right" style="font-family:'Roboto', Arial !important">
+                          <p style="margin:0; font-size:14px; color:#333333;padding:0;font-family:'Roboto', Arial !important;text-align:center;">
+                            QTY</p>
+                        </td>
+                        <td width="80" align="right" style="font-family:'Roboto', Arial !important;padding-right:10px;">
+                          <p style="margin:0; font-size:14px; color:#333333;padding:0;font-family:'Roboto', Arial !important;text-align:right;">
+                            PRICE</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td style=" font-family:'Roboto', Arial !important;padding:0;" align="center">
+                  <table width="550" style="border-collapse:collapse;margin: 0 auto;border-bottom: 1px solid #EBEBEB">
+                    <tbody>
+                      <tr>
+                        <td width="117" align="right" style="padding:24px 0 24px 10px; text-align:left;">
+                          <a href="#">
+                            <img src="https://img.chewy.com/is/catalog/89541_MAIN._AC_SS115_V1452007632_.jpg" border="0">
+                          </a>
+                        </td>
+                        <td width="270" style="vertical-align:middle; padding:0 0 0 10px; font-family:'Roboto', Arial !important;">
+                          <p style="font-size:16px; margin:0; color:#000; line-height:20px; font-family:'Roboto', Arial !important">
+                            <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                                Frisco Dog Poop Bags + Dispenser, Scented, 15 count
+                            </a>
+                          </p>
+                          <p style="font-size:14px;font-weight:bold;font-family:'Roboto', Arial !important;padding:0; margin:10px 0 0px 0;">
+                            
+                          </p>
+                        </td>
+                        <td align="center" width="60" style="vertical-align:middle; font-family:'Roboto', Arial !important;padding:0;">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important;text-align:center;">
+                            1
+                          </p>
+                        </td>
+                        <td align="center" width="80" style="font-family:'Roboto', Arial !important;padding:0 10px 0 0;">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important;text-align:center;text-decoration:line-through;text-align: right;">
+                            Rs 2.09
+                          </p>
+                          <p style="font-size:18px; color:#bc0101; margin:0; font-family:'Roboto', Arial !important;text-align:center;font-weight:bold;text-align: right;">
+                            Rs 1.99
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td style=" font-family:'Roboto', Arial !important;padding:0;" align="center">
+                  <table width="550" style="border-collapse:collapse;margin: 0 auto;border-bottom: 1px solid #EBEBEB">
+                    <tbody>
+                      <tr>
+                        <td width="117" align="right" style="padding:24px 0 24px 10px; text-align:left;">
+                          <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                            <img src="https://img.chewy.com/is/catalog/89528_MAIN._AC_SS115_V1452725780_.jpg" border="0">
+                          </a>
+                        </td>
+                        <td width="270" style="vertical-align:middle; padding:0 0 0 10px; font-family:'Roboto', Arial !important;">
+                          <p style="font-size:16px; margin:0; color:#000; line-height:20px; font-family:'Roboto', Arial !important">
+                            <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                                Frisco Refill Dog Poop Bags, Unscented, 120 count
+                            </a>
+                          </p>
+                          <p style="font-size:14px;font-weight:bold;font-family:'Roboto', Arial !important;padding:0; margin:10px 0 0px 0;">
+                          </p>
+                        </td>
+                        <td align="center" width="60" style="vertical-align:middle; font-family:'Roboto', Arial !important;padding:0;">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important;text-align:center;">
+                            1
+                          </p>
+                        </td>
+                        <td align="center" width="80" style="font-family:'Roboto', Arial !important;padding:0 10px 0 0;">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important;text-align:center;text-decoration:line-through;text-align: right;">
+                            Rs 4.99
+                          </p>
+                          <p style="font-size:18px; color:#bc0101; margin:0; font-family:'Roboto', Arial !important;text-align:center;font-weight:bold;text-align: right;">
+                            Rs 4.74
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td style=" font-family:'Roboto', Arial !important;padding:0;" align="center">
+                  <table width="550" style="border-collapse:collapse;margin: 0 auto;border-bottom: 1px solid #EBEBEB">
+                    <tbody>
+                      <tr>
+                        <td width="117" align="right" style="padding:24px 0 24px 10px; text-align:left;">
+                          <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                            <img src="https://img.chewy.com/is/catalog/54378._AC_SS115_V1460478783_.jpg" border="0">
+                          </a>
+                        </td>
+                        <td width="270" style="vertical-align:middle; padding:0 0 0 10px; font-family:'Roboto', Arial !important;">
+                          <p style="font-size:16px; margin:0; color:#000; line-height:20px; font-family:'Roboto', Arial !important">
+                            <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                                Zanies Monkey's Fist Knot Rope Dog Toy, 15-inch
+                            </a>
+                          </p>
+                        </td>
+                        <td align="center" width="60" style="vertical-align:middle; font-family:'Roboto', Arial !important;padding:0;">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important;text-align:center;">
+                            1
+                          </p>
+                        </td>
+                        <td align="center" width="80" style="font-family:'Roboto', Arial !important;padding:0 10px 0 0;">
+                          <p style="font-size:18px; color:#bc0101; margin:0; font-family:'Roboto', Arial !important;text-align:center;font-weight:bold;text-align: right;">
+                            Rs 4.99
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td style=" font-family:'Roboto', Arial !important;padding:0;" align="center">
+                  <table width="550" style="border-collapse:collapse;margin: 0 auto;border-bottom: 1px solid #EBEBEB">
+                    <tbody>
+                      <tr>
+                        <td width="117" align="right" style="padding:24px 0 24px 10px; text-align:left;">
+                          <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                            <img src="https://img.chewy.com/is/catalog/88788_MAIN._AC_SS115_V1468442789_.jpg" border="0">
+                          </a>
+                        </td>
+                        <td width="270" style="vertical-align:middle; padding:0 0 0 10px; font-family:'Roboto', Arial !important;">
+                          <p style="font-size:16px; margin:0; color:#000; line-height:20px; font-family:'Roboto', Arial !important">
+                            <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                                Frisco Fold &amp; Carry Double Door Dog Crate, 36-inch
+                            </a>
+                          </p>
+                        </td>
+                        <td align="center" width="60" style="vertical-align:middle; font-family:'Roboto', Arial !important;padding:0;">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important;text-align:center;">
+                            1
+                          </p>
+                        </td>
+                        <td align="center" width="80" style="font-family:'Roboto', Arial !important;padding:0 10px 0 0;">
+                          <p style="font-size:18px; color:#bc0101; margin:0; font-family:'Roboto', Arial !important;text-align:center;font-weight:bold;text-align: right;">
+                            Rs 27.89
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td style=" font-family:'Roboto', Arial !important;padding:0;" align="center">
+                  <table width="550" style="border-collapse:collapse;margin: 0 auto;border-bottom: 1px solid #EBEBEB">
+                    <tbody>
+                      <tr>
+                        <td width="117" align="right" style="padding:24px 0 24px 10px; text-align:left;">
+                          <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                            <img src="https://img.chewy.com/is/catalog/54854._AC_SS115_V1460478783_.jpg" border="0">
+                          </a>
+                        </td>
+                        <td width="270" style="vertical-align:middle; padding:0 0 0 10px; font-family:'Roboto', Arial !important;">
+                          <p style="font-size:16px; margin:0; color:#000; line-height:20px; font-family:'Roboto', Arial !important">
+                            <a href="#" style="text-decoration:none; color:#000; outline:0;">
+                                Bergan Stainless Steel Heavy Duty Non-Skid Pet Bowl, 4 cup
+                            </a>
+                          </p>
+                        </td>
+                        <td align="center" width="60" style="vertical-align:middle; font-family:'Roboto', Arial !important;padding:0;">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important;text-align:center;">
+                            4
+                          </p>
+                        </td>
+                        <td align="center" width="80" style="font-family:'Roboto', Arial !important;padding:0 10px 0 0;">
+                          <p style="font-size:18px; color:#bc0101; margin:0; font-family:'Roboto', Arial !important;text-align:center;font-weight:bold;text-align: right;">
+                            Rs 5.52
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding-top:24px; padding-bottom:20px">
+                  <table width="520" style="border-collapse:collapse">
+                    <tbody>
+                      <tr>
+                        <td align="right" width="425" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important">
+                            Subtotal (8 Items):
+                          </p>
+                        </td>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important">
+                            Rs 62.04
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important">
+                            Flat-Rate Shipping:
+                          </p>
+                        </td>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important;color:#bc0101;font-weight:bold;">
+                            FREE</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; margin:0; font-family:'Roboto', Arial !important">
+                            First Autoship Discount:
+                          </p>
+                        </td>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; margin:0; font-family:'Roboto', Arial !important">
+                            -Rs 12.34
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; margin:0; font-family:'Roboto', Arial !important">
+                            Autoship Discount:
+                          </p>
+                        </td>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; margin:0; font-family:'Roboto', Arial !important">
+                            -Rs 0.35
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important">
+                            Estimated Tax:
+                          </p>
+                        </td>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; color:#000; margin:0; font-family:'Roboto', Arial !important">
+                            Rs 0.00
+                          </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; color:#000; font-weight:900; margin:0; font-family:'Roboto', Arial !important">
+                            Order Total:
+                          </p>
+                        </td>
+                        <td align="right" style="padding-bottom:15px; font-family:'Roboto', Arial !important">
+                          <p style="font-size:18px; color:#bc0101; font-weight:bold; margin:0; font-family:'Roboto', Arial !important">
+                            Rs 49.35
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" style="padding-top:20px">
+          <table width="604" style="border-collapse:collapse;background-color:#FFF; font-family:'Roboto', Arial !important; border-radius:5px">
+            <tbody>
+              <tr>
+                <td colspan="4" style="vertical-align:middle;background-color: #f7be16;border-radius: 5px 5px 0 0;">
+                  <table style="background-color:#f7be16; width:100%; border-radius:5px 5px 0 0; border-collapse:collapse">
+                    <tbody>
+                      <tr>
+                        <td align="center" style="vertical-align:middle; padding:22px 0; font-family:'Roboto', Arial !important">
+                          <p style="color:#FFF; font-size:18px; margin:0; font-family:'Roboto', Arial !important">
+                            Call us at <a href="tel:1800-501-BUY" style="text-decoration:none; color:#FFF; font-weight:bold;outline:0;">1800-501-BUY</a> or email
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:0">
+                  <table cellpadding="20" style="width:100%; border-collapse:collapse">
+                    <tbody>
+                      <tr>
+                        <td align="center" style="border-right:1px solid #EBEBEB; font-family:'Roboto', Arial !important">
+                          <a href="#" style="outline:0;color:#f7be16; text-decoration:none">
+                            <p style="margin:0 0 8px 0"><img src="favicon/customer.svg"  border="0" width="50px"></p>
+                            <p style="color:#444; font-size:13px; text-transform:uppercase; margin:0; font-family:'Roboto', Arial !important">
+                              Customer <br> Service
+                            </p>
+                          </a>
+                        </td>
+                        <td align="center" style="border-right:1px solid #EBEBEB; font-family:'Roboto', Arial !important; vertical-align:bottom">
+                          <a href="#" style="outline:0;color:#f7be16; text-decoration:none">
+                            <p style="margin:0 0 14px 0; font-family:'Roboto', Arial !important"><img src="favicon/free-delivery.svg" border="0" width="50px"></p>
+                            <p style="color:#444; font-size:13px; text-transform:uppercase; margin:0; font-family:'Roboto', Arial !important">
+                              Free Shipping <br> orders Rs 49+
+                            </p>
+                          </a>
+                        </td>
+                        <td align="center" style="border-right:1px solid #EBEBEB; font-family:'Roboto', Arial !important">
+                          <a href="#" style="outline:0;color:#f7be16; text-decoration:none">
+                            <p style="margin:0 0 8px 0"><img src="favicon/satisfaction.svg" width="50px" border="0">
+                            </p>
+                            <p style="color:#444; font-size:13px; text-transform:uppercase; margin:0; font-family:'Roboto', Arial !important">
+                              Satisfaction <br> Guaranteed
+                            </p>
+                          </a>
+                        </td>
+                        <td align="center" style="font-family:'Roboto', Arial !important">
+                          <a href="#" style="outline:0;color:#f7be16; text-decoration:none">
+                            <p style="margin:0 0 8px 0"><img src="favicon/refund.svg" width="50px" border="0"></p>
+                            <p style="color:#444; font-size:13px; text-transform:uppercase; margin:0; font-family:'Roboto', Arial !important">
+                              Hassle-Free <br> Returns
+                            </p>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" style="padding-top:29px; padding-bottom:50px">
+          <table style="width:100%">
+            <tbody>
+              <tr>
+                <td align="center" style="font-family:'Roboto', Arial !important">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+        
+        
+    </div>
+
+
+
+    
+     
+
+
+   
+    
+    <div class="footer container-fluid">
+      <div class="footer-content row">
+        <div class="footer-section about col-md-4">
+         <img src="resources/dark-logo-2.png" alt="Brand-logo">
+         <br>
+          <p>
+            We Provide Best Prices for anything that you buy here. Let Your Money Bring The Best to you. THe right To you.
+          </p>
+          <div class="contact">
+            <span><i class="fas fa-phone"> &nbsp; +91 - 7004341074</i></span>
+            <span><i class="fas fa-envelope">&nbsp;astroitsol@gmail.com</i></span>
+          </div>
+
+          <div class="socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section links col-md-4">     <h2>Quick Links</h2>
+          <br/>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#">My Cart</a></li>
+            <li><a href="#">Developers</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact-form col-md-4">
+          <h2>Contact us</h2>
+          <form action="index.html">
+            <input type="email" name="email" class="text-input contact-input"  placeholder="Your email address...">
+            <textarea name="message"  class="text-input contact-input" placeholder="Your message..."></textarea>
+            <button type="submit" class="btn btn-big contact-btn">
+              <i class="fas fa-envelope">
+              </i>
+              send
+            </button>
+          </form>
+        </div>
+      </div>
+    
+      <div class="footer-bottom row">
+        <div class="col-12">
+        &copy; BuyRight.com | Designed by Astro IT Solutions.
+        </div>
+      </div>
+
+  
+    </div>
+
+      
+     <!-- Scrollback to top -->
+     <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    
+
+</body>
+
+</html>
