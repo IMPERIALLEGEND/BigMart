@@ -485,3 +485,29 @@ Banner */
     line-height: 1.5em;
     color: #FA1818;
 }
+
+/* Cart  */
+
+.minicart-showing #PPMiniCart form {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#PPMiniCart form {
+    position: relative;
+    width: 400px;
+    max-height: 400px;
+    margin-left: -200px;
+    padding: 10px 10px 40px;
+    background: #fbfbfb;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font: 15px/normal arial, helvetica;
+    color: #333;
+}
+#PPMiniCart form {
+    width: 590px !important;
+    padding: 10px 20px 40px !important;
+    max-height: 450px !important;
+}

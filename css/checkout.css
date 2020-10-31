@@ -1,0 +1,319 @@
+.about h3{
+    text-align: center;
+    color: #212121;
+    padding-bottom: .5em;
+    position: relative;
+    font-size: 2.5em;
+}
+
+.about h3:after{
+    content: '';
+    background: #FA1818;
+    height: 2px;
+    width: 8%;
+    position: absolute;
+    bottom: 0%;
+    left: 46%;
+}
+
+.checkout-right {
+    margin-top: 3em;
+}
+
+.checkout-right h4{
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+table.timetable_sub {
+    width: 100%;
+    margin: 0 auto;
+}
+table {
+    background-color: transparent;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.timetable_sub thead {
+    background: #004284;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.timetable_sub th, .timetable_sub td {
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    color: #212121;
+}
+.timetable_sub th {
+    background: #212121;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 13px;
+    border-right: 1px solid #ded2d2;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+element.style {
+}
+.timetable_sub td {
+    border: 1px solid #CDCDCD;
+}
+.timetable_sub th, .timetable_sub td {
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    color: #212121;
+}
+
+.quantity-select .entry.value-minus {
+    margin-left: 0;
+}
+.value-minus, .value-plus {
+    height: 40px;
+    line-height: 24px;
+    width: 40px;
+    margin-right: 3px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    border: 1px solid #b2b2b2;
+    vertical-align: bottom;
+}
+.quantity-select .entry.value-minus:before, .quantity-select .entry.value-plus:before {
+    content: "";
+    width: 13px;
+    height: 2px;
+    background: #000;
+    left: 50%;
+    margin-left: -7px;
+    top: 50%;
+    margin-top: -0.5px;
+    position: absolute;
+}
+.value {
+    cursor: default;
+    width: 40px;
+    height: 40px;
+    padding: 8px 0px;
+    color: #A9A9A9;
+    line-height: 24px;
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+    text-align: center;
+    display: inline-block;
+    margin-right: 3px;
+}
+.quantity-select .entry.value-plus:after {
+    content: "";
+    height: 13px;
+    width: 2px;
+    background: #000;
+    left: 50%;
+    margin-left: -1.4px;
+    top: 50%;
+    margin-top: -6.2px;
+    position: absolute;
+}
+
+.close1, .close2, .close3 {
+    
+        background: url(file:///C:/Users/Tejas/OneDrive/Desktop/GS/Grocery-Store/images/close_1.png) no-repeat 0px 0px;
+        background-image: url(file:///C:/Users/Tejas/OneDrive/Desktop/GS/Grocery-Store/images/close_1.png);
+        background-position-x: 0px;
+        background-position-y: 0px;
+        background-size: initial;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+        cursor: pointer;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        right: 15px;
+        top: -13px;
+        -webkit-transition: color 0.2s ease-in-out;
+        -moz-transition: color 0.2s ease-in-out;
+        -o-transition: color 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
+
+  
+}
+
+.checkout-left {
+    margin: 2em 0 0;
+}
+.checkout-left-basket {
+    float: left;
+    padding-left: 0;
+}
+.checkout-left-basket h4 {
+    padding: 1em;
+    background: #84c639;
+    font-size: 1.1em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 1em;
+}
+ul, label {
+    margin: 0;
+    padding: 0;
+}
+.checkout-left-basket ul li {
+    list-style-type: none;
+    margin-bottom: 1em;
+    font-size: 14px;
+    color: #999;
+}
+.checkout-left-basket ul li span {
+    float: right;
+}
+.address_form_agile {
+    float: right;
+}
+.address_form_agile h4 {
+    font-size: 1.2em;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.agileits_w3layouts_tab2 input[type="email"], .agileits_w3layouts_tab2 input[type="password"], .creditly-wrapper .form-control {
+    display: block;
+    width: 95.5%;
+    padding: 15px 10px;
+    font-size: 14px;
+    color: #212121;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 25px;
+    outline: none;
+}
+.information-wrapper input {
+    width: 100%!important;
+}
+.form-control {
+    border-radius: 0;
+}
+button.submit.check_out {
+    display: block;
+    position: relative;
+    padding: 11px 30px;
+    letter-spacing: 1px;
+    background: #84c639;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-transform: uppercase;
+}
+.checkout-right-basket {
+    float: right;
+    margin: 3em 0 0 0em;
+}
+.checkout-right-basket a {
+    padding: 10px 20px 10px 18px;
+    color: #fff;
+    font-size: 1em;
+    background: #212121;
+    text-decoration: none;
+}
+.checkout-right-basket a span {
+    left: -.5em;
+    top: 0.1em;
+}
+.checkout-right-basket span {
+    margin-left: 1em;
+}
+.glyphicon-chevron-right:before {
+    content: "\e080";
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
+    clear: both;
+}
+
+select.form-control.option-w3ls {
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+    font-size: 0.8em;
+    margin: 0.5em 0;
+    outline: none;
+    color: #212121;
+    border: none;
+    border: 1px solid #ccc;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.agileits_w3layouts_tab2 input[type="email"], .agileits_w3layouts_tab2 input[type="password"], .creditly-wrapper .form-control {
+    display: block;
+    width: 95.5%;
+    padding: 15px 10px;
+    font-size: 14px;
+    color: #212121;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 25px;
+    outline: none;
+}
+.form-control {
+    border-radius: 0;
+}
+.checkout-left-basket ul li:nth-child(5) {
+    font-size: 1em;
+    color: #212121;
+    font-weight: 600;
+    padding: 1em 0;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    margin: 2em 0 0;
+}
